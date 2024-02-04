@@ -1,3 +1,4 @@
 exports.getDate = () => {
-    return new Date().toString();
+  const date = new Date();
+  return date;
 };
